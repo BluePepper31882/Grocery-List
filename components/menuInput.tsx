@@ -2,7 +2,7 @@ interface MIprops {
     content?: string;
     isPassword?: boolean;
     value: string;
-    onChange: (val: string) => void;
+    onChange: (val: string) => any;
 }
 
 
